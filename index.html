@@ -1,102 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <style>
-        .all-browsers
-        {
+        .all-browsers {
             margin: 0;
             padding: 5px;
             background-color: lightgray;
         }
-        .all-browsers > h1, .browser
-        {
+
+        .all-browsers>h1,
+        .browser {
             margin: 10px;
             padding: 5px;
         }
-        .browser
-        {
+
+        .browser {
             background-color: white;
         }
-        .browser > h2, p
-        {
+
+        .browser>h2,
+        p {
             margin: 4px;
             font-size: 90%;
         }
-        article 
-        {
+
+        article {
             display: block;
         }
-        code 
-        {
-             font-family: monospace;
+
+        code {
+            font-family: monospace;
         }
-        footer 
-        {
-        text-align: center;
-        padding: 3px;
-        background-color: rgb(42, 133, 236);
-        color: white;
+
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: rgb(56, 79, 105);
+            color: white;
         }
-        .apresentacao
-        {
-            background-color: rgb(102, 107, 116);
+
+        .apresentacao {
+            background-color: rgb(49, 65, 94);
+            border-radius: 20px 0px 20px 0px;
+            border-left-width: 0;
+            padding: 10px;
+            border: 0;
         }
-        .apresentacao > h1
-        {
+
+        .apresentacao>h1 {
             text-align: center;
             padding: 0px;
             margin: 0px;
+            text-shadow: 2px;
+            font-size: 2.5em;
+            color: white;
+
         }
-        .apresentacao > p{
+
+        .apresentacao>p {
             font-family: 'Courier New', Courier, monospace;
             text-align: center;
+            background-color: rgb(130, 134, 187);
+            padding: auto;
         }
-    /*    .apresentacao > img{
+
+        /*    .apresentacao > img{
             height: 150px;
             width: 150px;
         }
     */
+        .profile {
+            width: 60%;
+            height: auto;
+            display: block;
+            position: relative;
+
+        }
+
+        .button {
+            background-color: #555555;
+            color: white;
+            border: 1px;
+            text-align: center;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .button {
+            -webkit-transition-duration: 0.9s;
+            /* Safari */
+            transition-duration: 0.4s;
+        }
+
+        .button:hover {
+            background-color: #4CAF50;
+            /* Green */
+            color: white;
+        }
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pauloJamal</title>
 </head>
+
 <body>
     <br>
     <div class="apresentacao">
         <h1>Olá mundo!</h1>
         <p>Eu sou o Paulo, estudo desenvolvimento Web e resolvi colocar em prática um pouco do que tenho aprendido</p>
-        <p align="center"> <img src="profile.jpg" alt="perfil" height="250px"></a></p>
-       
+        <div class="profile">
+            <img src="profile.jpg" alt="perfil" height="250px"></a>
+        </div>
+
+
     </div>
-    <div class="noticias"><h3>Atualizações</h3></div>
-      <article>
+    <div class="noticias">
+        <h3>Atualizações</h3>
+    </div>
+    <article>
         <h2>Curiosidade para o dia 22 de julho: </h2>
         <p>
-            Em 1980, Bill Gates fazia a primeira reunião com a IBM para o licenciamento do sistema operacional que se tornaria o MS-DOS. E ao final das notícias desta sexta: indicação de vídeo para começar a aprender Python (um dos mais populares no assunto) e desconto exclusivo para acessar mais de 1.200 cursos com certificado.</p>
-      </article>
-      <hr size="1" align="center">
-      <h2>Plataformas utilizadas por criminosos cibernéticos possuem sistema de reputação e código de honra, mostra pesquisa: </h2>
-      <p>vendedores de kits de malware são classificados de acordo com sua reputação, baseada em notas deixadas por compradores. A maioria das plataformas também exige o depósito de caução para resolução de disputas, serviço realizado por um terceiro especializado. Existe um esquema para transferência de reputação entre websites, já que páginas na dark web ficam, em média, disponíveis por apenas 55 dias. As informações são do site CISO Advisor.</p>
-      <hr size="1" align="center">
-      <h2>Escritores estão começando a usar IA para escrever livros:</h2>
-      <p>para Jennifer Lepp, uma escritora independente, o sistema Sudowrite, baseado no GPT-3 da OpenAI, seria como uma colaboração, inspirando-a no desenvolvimento da história e em ajustes de passagens. O tema, no entanto, é controverso no meio editorial, tanto para escritores e leitores sobre a autenticidade do que é escrito. As informações são do site The Verge.</p>
-      
-      <hr size="1" align="center">
-      <h2>Brasil é o terceiro maior mercado do mundo em volume de instalações de aplicativos: </h2>
-      <p>com 2,5 bilhões de downloads no segundo trimestre, o País fica atrás dos EUA (3 bilhões de instalações) e Índia (7 bilhões). No Brasil, domina o sistema Android e a loja Google Play, respondendo por 92% dos downloads. As informações são do site Mobile Time.</p>
+            Em 1980, Bill Gates fazia a primeira reunião com a IBM para o licenciamento do sistema operacional que se
+            tornaria o MS-DOS. E ao final das notícias desta sexta: indicação de vídeo para começar a aprender Python
+            (um dos mais populares no assunto) e desconto exclusivo para acessar mais de 1.200 cursos com certificado.
+        </p>
+    </article>
+    <hr size="1">
+    <h2>Plataformas utilizadas por criminosos cibernéticos possuem sistema de reputação e código de honra, mostra
+        pesquisa: </h2>
+    <p>vendedores de kits de malware são classificados de acordo com sua reputação, baseada em notas deixadas por
+        compradores. A maioria das plataformas também exige o depósito de caução para resolução de disputas, serviço
+        realizado por um terceiro especializado. Existe um esquema para transferência de reputação entre websites, já
+        que páginas na dark web ficam, em média, disponíveis por apenas 55 dias. As informações são do site CISO
+        Advisor.</p>
+    <a href="https://www.cisoadvisor.com.br/grupos-tem-codigo-de-honra-para-resolver-disputas-e-venda-malware%EF%BF%BC/"
+        class="button">Notícia completa</a>
 
-      <hr size="1" align="center">
-      <h2>Empresas criam Comitê Brasileiro de Cibersegurança Industrial:</h2>
-      <p>o objetivo é consolidar informações e iniciativas, fomentar a educação de profissionais especializados e prevenir incidentes. Microsoft, IBM e Siemens são alguns dos membros fundadores. As informações são do site CISO Advisor.</p>
-      <br>
+    <hr size="1">
+    <h2>Escritores estão começando a usar IA para escrever livros:</h2>
+    <p>para Jennifer Lepp, uma escritora independente, o sistema Sudowrite, baseado no GPT-3 da OpenAI, seria como uma
+        colaboração, inspirando-a no desenvolvimento da história e em ajustes de passagens. O tema, no entanto, é
+        controverso no meio editorial, tanto para escritores e leitores sobre a autenticidade do que é escrito. As
+        informações são do site The Verge.</p>
+        <a href="https://techacute.com/can-artificial-intelligence-write-a-book/" class="button">Notícia completa</a>
+
+    <hr size="1">
+    <h2>Brasil é o terceiro maior mercado do mundo em volume de instalações de aplicativos: </h2>
+    <p>com 2,5 bilhões de downloads no segundo trimestre, o País fica atrás dos EUA (3 bilhões de instalações) e Índia
+        (7 bilhões). No Brasil, domina o sistema Android e a loja Google Play, respondendo por 92% dos downloads. As
+        informações são do site Mobile Time.</p>
+        <a href="https://canaltech.com.br/apps/brasil-e-o-segundo-mercado-de-apps-que-mais-cresce-no-mundo-139241/#:~:text=O%20Brasil%20%C3%A9%20o%20segundo,o%20cen%C3%A1rio%20mundial%20do%20setor." class="button">Notícia completa</a>
+
+    <hr size="1">
+    <h2>Empresas criam Comitê Brasileiro de Cibersegurança Industrial:</h2>
+    <p>o objetivo é consolidar informações e iniciativas, fomentar a educação de profissionais especializados e prevenir
+        incidentes. Microsoft, IBM e Siemens são alguns dos membros fundadores. As informações são do site CISO Advisor.
+    </p>
+    <a href="https://www.gazetadopovo.com.br/gpbc/tisafe/comite-brasileiro-de-ciberseguranca-e-anunciado-em-evento-em-curitiba/#:~:text=A%20forma%C3%A7%C3%A3o%20do%20Comit%C3%AA%20Brasileiro,empresa%20que%20organiza%20o%20evento." class="button">Notícia completa</a>
+    <br>
 
     <footer>
         <p>Author: Paulo José da Silva</p>
         <p><a href="https://www.linkedin.com/in/paulojosedasilva/">@paulojamal</a></p>
-      </footer>
-      
-      
+    </footer>
+
+
 </body>
+
 </html>
