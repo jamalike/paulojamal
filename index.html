@@ -1,141 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
-    <style>
-        .all-browsers {
-            margin: 0;
-            padding: 5px;
-            background-color: lightgray;
-        }
-
-        .all-browsers>h1,
-        .browser {
-            margin: 10px;
-            padding: 5px;
-        }
-
-        .browser {
-            background-color: white;
-        }
-
-        .browser>h2,
-        p {
-            margin: 4px;
-            font-size: 90%;
-        }
-
-        article {
-            display: block;
-        }
-
-        code {
-            font-family: monospace;
-        }
-
-        footer {
-            text-align: center;
-            padding: 3px;
-            background-color: rgb(56, 79, 105);
-            color: white;
-        }
-
-        .apresentacao {
-            background-color: rgb(49, 65, 94);
-            border-radius: 20px 0px 20px 0px;
-            border-left-width: 0;
-            padding: 10px;
-            border: 0;
-        }
-
-        .apresentacao>h1 {
-            text-align: center;
-            padding: 0px;
-            margin: 0px;
-            text-shadow: 2px;
-            font-size: 2.5em;
-            color: white;
-
-        }
-
-        .apresentacao>p {
-            font-family: 'Courier New', Courier, monospace;
-            text-align: center;
-            background-color: rgb(130, 134, 187);
-            padding: auto;
-        }
-
-        /*    .apresentacao > img{
-            height: 150px;
-            width: 150px;
-        }
-           .profile {
-            width: 60%;
-            height: auto;
-            display: block;
-            position: relative;
-
-        }
-
-        .button {
-            background-color: #555555;
-            color: white;
-            border: 1px;
-            text-align: center;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-        }
-
-        .button {
-            -webkit-transition-duration: 0.9s;
-            /* Safari */
-            transition-duration: 0.4s;
-        }
-
-        .button:hover {
-            background-color: #4CAF50;
-            /* Green */
-            color: white;
-        }
-    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pauloJamal</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/fonts.css" rel="stylesheet">
+    <link href="styles/media.css" rel="stylesheet">
+    <title>Landing Page</title>
 </head>
-/*
 <body>
-    <br>
-    <div class="apresentacao">
-        <h1>Olá mundo!</h1>
-        <p>Eu sou o Paulo, estudo desenvolvimento Web e resolvi colocar em prática um pouco do que tenho aprendido</p>
-        <div class="profile">
-            <img src="profile.jpg" alt="perfil" height="250px"></a>
+    <header>
+        <div id="title">
+            <h1>Marketing</h1>
+            <h1>Criativo</h1>
         </div>
 
+        <ul>
+            <a href="#"><li>Início</li></a>
+            <a href="#"><li>Serviços</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Contato</li></a>
+            <a href="#" id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
+        </ul>
+    </header>
 
-    </div>
-    <div class="noticias">
-        <h3>Atualizações</h3>
-    </div>
-    <article>
-        <h2>Curiosidade para o dia 26 de julho: </h2>
-        <p>
-            Em 1989, Robert Morris era indiciado nos EUA após a distribuição do primeiro vírus de 
-            computador pela Internet – Morris hoje é professor do MIT. <b>E após as notícias de hoje:</b> Discord para conversar com outros desenvolvedores que trabalham ao redor do mundo e lançamento de um clube do livro exclusivo para desenvolvimento de software.
-        </p>
-    </article>
-    <hr size="1">
+    <main>
+        <aside>
+            <h2><span>Inscreva-se agora</span></h2>
+            <h2>na Newslatter</h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </p>
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <input type="submit" value="Enviar >">
+            </form>
+        </aside>
+
+        <article>
+            <img src="./components/images/77d0a7c454e658833800528e748edbe9.png" alt="mulher-roxa">
+        </article>
+    </main>
     
-
-    <footer>
-        <p>Author: Paulo José da Silva</p>
-        <p>Fonte: Newsletter Filipe Dechamps → <a href="https://click.convertkit-mail.com/92ueq7xm95fnhq6k8dwc9/7qh7h8h07p7m0qiz/aHR0cHM6Ly9maWxpcGVkZXNjaGFtcHMuY29tLmJyL25ld3NsZXR0ZXI=">Inscreva-se!</a></p>
-        <p><a href="https://www.linkedin.com/in/paulojosedasilva/">@paulojamal</a></p>
-    </footer>
 </body>
-
 </html>
